@@ -221,3 +221,17 @@ ul{
         width: 30%;
     }
 }
+@media(max-width:991px){
+    .navresp{
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+    .navresp .headdiv1{
+        grid-column-start: 2;
+        grid-column-end:3 ;
+    }
+    .navresp .headdiv2{
+        grid-column-start: 11;
+        grid-column-end: 12 ;
+    }
+}
